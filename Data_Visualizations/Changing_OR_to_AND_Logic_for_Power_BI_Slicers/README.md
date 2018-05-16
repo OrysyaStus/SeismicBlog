@@ -1,5 +1,6 @@
 # [Changing "OR" to "AND" Logic for Power BI Slicers](https://medium.com/@ostus/changing-or-to-and-logic-for-power-bi-slicers-1a6b20aee5f5)
 Author: [Orysya Stus](https://www.linkedin.com/in/orysyastus/)
+
 Date: May 16, 2018
 
 <img src="BlogImages/HierarchySlicerAppliedBoxed.PNG" width="800">
