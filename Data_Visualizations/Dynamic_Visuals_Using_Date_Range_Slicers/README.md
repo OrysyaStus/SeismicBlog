@@ -1,20 +1,20 @@
-# [Changing "OR" to "AND" Logic for Power BI Slicers](https://medium.com/@ostus/changing-or-to-and-logic-for-power-bi-slicers-1a6b20aee5f5)
+# [Dynamic Visuals Using Date Range Slicers](https://medium.com/@ostus/dynamic-visuals-using-date-range-slicers-876b0a12c3d0)
 Author: [Orysya Stus](https://www.linkedin.com/in/orysyastus/)
 
-Date: May 16, 2018
+Date: May 24, 2018
 
-<img src="BlogImages/HierarchySlicerAppliedBoxed.PNG" width="800">
+<img src="BlogImages/DashBoxed.PNG" width="800">
 
 
 ### Goal
 
-Create the necessary calculated fields to change “OR” to “AND” logic for Power BI slicers (native slicer and the hierarchySlicer).
+Create visuals which dynamically change depending on the relative date range selected in a slicer.
 
 ### Topics Covered
-* So how do Power BI's slicers work?
-* Why would you want to change the logic?
-* But first let's discuss the data
-* Case 1: Changing to "AND" Logic for Power BI's Native Slicer
-* Case 2: Changing to "AND" Logic for Power BI's hierarchySlicer
+* Where do we start? The data, of course
+* Let’s Built This!
+    * Create a slicer called ‘Activity in Past’ to switch between seeing your data in the past day, week, month, or quarter
+    * Create DAX equations to dynamically change metrics and text based on dates ranges sliced
+    * Create DAX relative equations with unichar symbols ie. calculating percent change between this week and previous week
 * Recommendations
 * Concluding Remarks
