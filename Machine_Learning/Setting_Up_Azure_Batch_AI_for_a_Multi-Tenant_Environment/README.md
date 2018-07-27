@@ -1,20 +1,14 @@
-# [Dynamic Visuals Using Date Range Slicers in Power BI](https://medium.com/@ostus/dynamic-visuals-using-date-range-slicers-876b0a12c3d0)
+# [Setting Up Azure Batch AI for a Multi-Tenant Environment](https://medium.com/seismic-data-science/setting-up-azure-batch-ai-for-a-multi-tenant-environment-a51d86fb0ecb)
 Author: [Orysya Stus](https://www.linkedin.com/in/orysyastus/)
 
-Date: May 24, 2018
-
-<img src="BlogImages/DashBoxed.PNG" width="800">
-
+Date: July 2018
 
 ### Goal
 
-Create visuals which dynamically change depending on the relative date range selected in a slicer.
+Set up and run Custom Toolkit training jobs in a multi-tenant environment using Azure Batch AI.
 
-### Topics Covered
-* Where do we start? The data, of course
-* Let’s Built This!
-    * Create a slicer called ‘Activity in Past’ to switch between seeing your data in the past day, week, month, or quarter
-    * Create DAX equations to dynamically change metrics and text based on dates ranges sliced
-    * Create DAX relative equations with unichar symbols ie. calculating percent change between this week and previous week
-* Recommendations
-* Concluding Remarks
+### In this blog, we will build out the Azure Batch AI infrastructure:
+   1. Upload 30 day historical weather data into blob storage for each customer. Upload model for training, supporting scripts, and package requirements into file share. [Batch Step 1]
+   2. Initialize Batch AI: Create the number of nodes per cluster, enable autoscaling of 0 nodes, and allow training jobs in parallel. [Batch Step 2]
+   3. Run Azure Batch AI using Custom Toolkit: Download training data from blob storage into Azure Batch AI. Monitor job status and examine error/output logs for each job. Upload trained model for each customer into file share. [Batch Steps 3–5]
+   4. Locally, predict upcoming 24 hour weather for each customer using the latest trained model downloaded from file share. [Batch Step 6]
