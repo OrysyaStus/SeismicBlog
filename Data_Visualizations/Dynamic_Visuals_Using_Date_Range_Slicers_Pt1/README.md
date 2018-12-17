@@ -1,4 +1,4 @@
-# [Dynamic Visuals Using Date Range Slicers in Power BI](https://medium.com/@ostus/dynamic-visuals-using-date-range-slicers-876b0a12c3d0)
+# [Dynamic Visuals Using Date Range Slicers in Power BI Part 1](https://medium.com/@ostus/dynamic-visuals-using-date-range-slicers-876b0a12c3d0)
 Author: [Orysya Stus](https://www.linkedin.com/in/orysyastus/)
 
 Date: May 24, 2018
